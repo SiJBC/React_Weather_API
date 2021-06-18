@@ -1,0 +1,15 @@
+Add destination has the values to display hard coded in to create the values on the app - 
+needs to be cleaned up to be 2 functions one that takes the values and the other that displays the values
+
+Add destination should change the query string 
+onAdd should take the object and return it to the screen
+
+https://api.openweathermap.org/data/2.5/weather?q=sydney&appid=4915deb164cf151c9e3b329f1c2270a7
+weather
+
+api.openweathermap.org/data/2.5/weather?q=sydney&appid=4915deb164cf151c9e3b329f1c2270a7
+
+
+array indexing is not available on props that are from async functions ?
+
+the query value is avalailable in the 

@@ -13,3 +13,9 @@ api.openweathermap.org/data/2.5/weather?q=sydney&appid=4915deb164cf151c9e3b329f1
 array indexing is not available on props that are from async functions ?
 
 the query value is avalailable in the 
+
+
+20/6/2021
+
+*   validations server side and client side
+*   

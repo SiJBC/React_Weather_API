@@ -4,6 +4,7 @@ function AddCity( {updateQuery }) {
     const [city, setCity] = useState('')
 
     const onSubmit = (e) => {
+
         e.preventDefault()
 
         if(!city) {
@@ -11,7 +12,7 @@ function AddCity( {updateQuery }) {
             return
         }
 
-        updateQuery( {city} )
+        updateQuery(city)
 
         setCity('')
     }

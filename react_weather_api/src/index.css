@@ -13,16 +13,21 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  max-width: 100%;
 }
 
 .container {
-  max-width: 600px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px 100%;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;
+  background-color: #cecccc;
 }
 
 .header {
@@ -60,6 +65,10 @@ body {
 }
 
 .weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1vh;
   background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;

@@ -1,10 +1,10 @@
 import React from 'react';
-import ForecastCard from '../components/ForecastCard';
+
 
 function ForecastBox(forecastApi) {
 
-    var someStr = 'He said "Hello, my name is Foo"';
-    console.log(someStr.replace(/['"]+/g, ''));
+    // var someStr = 'He said "Hello, my name is Foo"';
+    // console.log(someStr.replace(/['"]+/g, ''));
 
 
 const dayArrayInit = () => {
